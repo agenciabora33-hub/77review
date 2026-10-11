@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: '77 Review',
   tagline: 'Evidence-Aware Health, Fitness & Supplement Editorial',
-  domain: 'https://77review.com',
+  domain: 'https://77review.vercel.app',
   primaryMarket: 'United States',
   language: 'American English',
   editorialScope:

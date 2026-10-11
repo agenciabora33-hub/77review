@@ -2,55 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Core Pages -->
   <url>
-    <loc>https://77review.com/</loc>
+    <loc>https://77review.vercel.app/</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://77review.com/editorial-policy</loc>
+    <loc>https://77review.vercel.app/editorial-policy</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://77review.com/methodology</loc>
+    <loc>https://77review.vercel.app/methodology</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://77review.com/medical-review</loc>
+    <loc>https://77review.vercel.app/medical-review</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://77review.com/affiliate-disclosure</loc>
+    <loc>https://77review.vercel.app/affiliate-disclosure</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://77review.com/advertising-policy</loc>
+    <loc>https://77review.vercel.app/advertising-policy</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://77review.com/corrections-policy</loc>
+    <loc>https://77review.vercel.app/corrections-policy</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://77review.com/about</loc>
+    <loc>https://77review.vercel.app/about</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://77review.com/contact</loc>
+    <loc>https://77review.vercel.app/contact</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -58,25 +58,25 @@
 
   <!-- Categories -->
   <url>
-    <loc>https://77review.com/category/supplements-nutrition</loc>
+    <loc>https://77review.vercel.app/category/supplements-nutrition</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://77review.com/category/fitness-sports</loc>
+    <loc>https://77review.vercel.app/category/fitness-sports</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://77review.com/category/health-wellness</loc>
+    <loc>https://77review.vercel.app/category/health-wellness</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://77review.com/category/product-reviews</loc>
+    <loc>https://77review.vercel.app/category/product-reviews</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -84,19 +84,19 @@
 
   <!-- Articles -->
   <url>
-    <loc>https://77review.com/article/creatine-evidence-guide</loc>
+    <loc>https://77review.vercel.app/article/creatine-evidence-guide</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://77review.com/article/sleep-architecture-recovery</loc>
+    <loc>https://77review.vercel.app/article/sleep-architecture-recovery</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://77review.com/article/label-reading-guide</loc>
+    <loc>https://77review.vercel.app/article/label-reading-guide</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -104,19 +104,19 @@
 
   <!-- Product Reviews -->
   <url>
-    <loc>https://77review.com/review/vital-labs-creapure-creatine-monohydrate</loc>
+    <loc>https://77review.vercel.app/review/vital-labs-creapure-creatine-monohydrate</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://77review.com/review/aurora-apex-titanium-recovery-ring</loc>
+    <loc>https://77review.vercel.app/review/aurora-apex-titanium-recovery-ring</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://77review.com/review/elemental-grass-fed-whey-isolate</loc>
+    <loc>https://77review.vercel.app/review/elemental-grass-fed-whey-isolate</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -124,13 +124,13 @@
 
   <!-- Comparisons -->
   <url>
-    <loc>https://77review.com/compare/creatine-monohydrate-vs-creatine-hcl</loc>
+    <loc>https://77review.vercel.app/compare/creatine-monohydrate-vs-creatine-hcl</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://77review.com/compare/recovery-wearables-smart-ring-vs-wrist-trackers</loc>
+    <loc>https://77review.vercel.app/compare/recovery-wearables-smart-ring-vs-wrist-trackers</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -138,7 +138,7 @@
 
   <!-- Buying Guides -->
   <url>
-    <loc>https://77review.com/guide/creatine-buying-guide</loc>
+    <loc>https://77review.vercel.app/guide/creatine-buying-guide</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
