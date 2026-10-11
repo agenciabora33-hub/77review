@@ -1,0 +1,6 @@
+{
+  "name": "77 Review",
+  "description": "Independent health, fitness, wellness and supplement editorial publication delivering evidence-aware reviews, comparisons, and buying guides.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

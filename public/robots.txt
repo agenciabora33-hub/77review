@@ -1,0 +1,7 @@
+# 77 Review - Robots Configuration
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /go/
+
+Sitemap: https://77review.com/sitemap.xml

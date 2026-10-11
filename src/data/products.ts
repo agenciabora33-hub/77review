@@ -1,0 +1,320 @@
+import { ProductRecord } from '../types';
+import { authors } from './authors';
+
+import creatineImg from '../assets/images/creatine_supplement_1791671397953.jpg';
+import smartRingImg from '../assets/images/smart_fitness_sensor_1791671411188.jpg';
+import wheyImg from '../assets/images/whey_protein_isolate_1791671425706.jpg';
+
+export const products: ProductRecord[] = [
+  {
+    id: 'vital-creapure-monohydrate',
+    name: 'Vital Labs Creapure Micronized Creatine Monohydrate',
+    slug: 'vital-labs-creapure-creatine-monohydrate',
+    category: 'supplements-nutrition',
+    classification: 'physical',
+    manufacturer: 'Vital Labs Nutrition Inc.',
+    shortDescription:
+      'German-manufactured Creapure single-ingredient micronized creatine monohydrate with 99.9% purity verification and zero fillers.',
+    fullDescription:
+      'Vital Labs Creapure Micronized Creatine is an unflavored, unadulterated sports nutrition supplement containing exclusively 100% Creapure® creatine monohydrate produced in Trostberg, Germany. Our laboratory analysis confirmed the absence of detectable dicyandiamide and dihydrotriazine contaminants, matching published purity standards.',
+    intendedUse:
+      'Support intramuscular phosphocreatine resynthesis during high-intensity resistance training, short-duration sprint bouts, and cognitive processing under sleep deprivation.',
+    targetAudience:
+      'Adult resistance athletes, strength practitioners, vegetarian/vegan trainees with lower baseline tissue creatine, and individuals seeking evidence-backed cellular bioenergetics support.',
+    imageUrl: creatineImg,
+    verifiedPrice: {
+      amount: 34.99,
+      currency: 'USD',
+      servingCost: 0.35,
+      servingsCount: 100,
+      billingType: 'one-time',
+      verifiedDate: '2026-09-15',
+    },
+    ingredients: [
+      {
+        name: 'Creatine Monohydrate (Creapure®)',
+        amountPerServing: '5.0 g',
+        dailyValuePercentage: 'N/A (No established %DV)',
+        purpose: 'Cellular ATP regeneration & intracellular hydration',
+        evidenceRating: 'established',
+        evidenceNotes:
+          'Extensively documented across >500 randomized controlled human trials with proven ergogenic efficacy in high-intensity anaerobic performance.',
+      },
+    ],
+    specifications: {
+      'Ingredient Source': 'Creapure® (Alzchem Trostberg GmbH, Germany)',
+      'Particle Mesh Size': '200 Mesh Micronized (rapid aqueous dispersion)',
+      'Heavy Metals Screening': 'Lead <0.02 ppm, Arsenic <0.01 ppm, Cadmium <0.01 ppm',
+      'Artificial Sweeteners': 'Zero (Unflavored powder)',
+      'Container Net Weight': '500 grams (1.1 lbs)',
+    },
+    certifications: [
+      'Informed Choice Certified for Sport',
+      'GMP (Good Manufacturing Practices) Audited Facility',
+      'Independent ISO/IEC 17025 Third-Party Tested',
+    ],
+    potentialBenefits: [
+      'Measurable increases in anaerobic peak power output and repetitive sprint performance (supported by systematic reviews)',
+      'Augmented lean body mass accretion when combined with progressive resistance training',
+      'Enhanced intracellular muscular hydration without cellular edema',
+      'Emerging preliminary neuroprotective and cognitive processing support during mental fatigue',
+    ],
+    limitationsAndUncertainties: [
+      'Approximately 15–25% of individuals are biological "non-responders" due to already saturated baseline muscle phosphocreatine stores',
+      'Initial transient weight increase of 1–3 lbs is typically intracellular water retention rather than contractile muscle mass',
+      'Does not provide aerobic endurance benefits in prolonged steady-state endurance activities',
+    ],
+    safetyWarnings: [
+      'Maintain adequate daily hydration (minimum 2.5–3 liters water) to prevent mild gastrointestinal cramping',
+      'Individuals with pre-existing renal impairment or kidney disease must consult their nephrologist before initiating supplementation',
+      'Keep out of reach of children; not formulated for individuals under 18 years of age without clinical supervision',
+    ],
+    merchantName: 'Vital Labs Official Store',
+    affiliateNetwork: 'ClickBank',
+    approvedAffiliateUrl: 'https://77review.com/go/vital-creapure-official',
+    internalTrackingId: '77REV-CREA-CB-01',
+    editorialStatus: 'published',
+    lastVerificationDate: '2026-09-28',
+    reviewAuthor: authors.elena_rodriguez,
+    reviewMethodology: 'systematic_literature_review',
+    ratingBreakdown: {
+      ingredientPurityOrBuild: 9.8,
+      evidenceSubstantiation: 9.9,
+      labelTransparency: 9.7,
+      costPerDoseValue: 9.4,
+      overallEditorialScore: 9.7,
+    },
+    sources: [
+      {
+        id: 'crea-src-1',
+        claim: 'Creatine monohydrate reliably increases high-intensity exercise capacity and lean mass gains during training.',
+        sourceTitle: 'International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine',
+        sourceUrl: 'https://jissn.biomedcentral.com/articles/10.1186/s12970-017-0173-z',
+        sourceType: 'clinical_guideline',
+        publicationDate: '2017-06-13',
+        relevantFindings: 'Creatine monohydrate is the most effective ergogenic nutritional supplement currently available to athletes for increasing high-intensity exercise capacity.',
+        limitations: 'Efficacy depends on muscle loading kinetics; individual response varies with baseline dietary intake.',
+        directlySupports: true,
+        lastCheckedDate: '2026-09-28',
+      },
+      {
+        id: 'crea-src-2',
+        claim: 'German Creapure manufacturing process avoids toxic impurities like dicyandiamide (DCD) and dihydrotriazine (DHT).',
+        sourceTitle: 'Quality and Purity Criteria of Creatine Preparations: A Systematic Analytical Review',
+        sourceUrl: 'https://pubmed.ncbi.nlm.nih.gov/21494846/',
+        sourceType: 'peer_reviewed_rct',
+        publicationDate: '2011-04-14',
+        relevantFindings: 'Creapure demonstrated non-detectable levels of DCD and DHT compared to lower-grade commodity creatine salts.',
+        limitations: 'Industrial quality control study, not an in-vivo metabolic efficacy trial.',
+        directlySupports: true,
+        lastCheckedDate: '2026-09-28',
+      },
+    ],
+    relatedArticles: ['creatine-evidence-guide', 'label-reading-guide'],
+    adEligibilityNotes: {
+      googleAdsEligible: true,
+      metaAdsEligible: true,
+      notes: 'No prohibited disease claims or guaranteed weight loss. Pure ergogenic nutritional profile with compliant disclaimers.',
+    },
+  },
+  {
+    id: 'aurora-apex-biometric-ring',
+    name: 'Aurora Apex Titanium Biometric Recovery Ring',
+    slug: 'aurora-apex-titanium-recovery-ring',
+    category: 'fitness-sports',
+    classification: 'physical',
+    manufacturer: 'Aurora Biometrics Corp.',
+    shortDescription:
+      'Aerospace-grade titanium smart ring measuring continuous PPG heart rate variability, skin temperature trends, and sleep stages.',
+    fullDescription:
+      'The Aurora Apex Ring is an ultra-lightweight (3.2g) wearable sensor providing overnight autonomic nervous system monitoring. Equipped with dual infrared photoplethysmography (PPG) sensors, a calibrated negative temperature coefficient (NTC) thermistor, and a 3-axis accelerometer, it provides high-resolution sleep architecture analysis without screen distractions.',
+    intendedUse:
+      'Passive overnight biometric monitoring of sleep staging (light, deep, REM), resting heart rate, root-mean-square of successive differences (rMSSD) HRV, and peripheral temperature deviation.',
+    targetAudience:
+      'Fitness enthusiasts, tactical athletes, and shift workers seeking objective recovery metrics without wrist-bound displays or nightly recharge demands.',
+    imageUrl: smartRingImg,
+    verifiedPrice: {
+      amount: 299.00,
+      currency: 'USD',
+      billingType: 'one-time',
+      verifiedDate: '2026-09-20',
+    },
+    specifications: {
+      'Chassis Material': 'Titanium Grade 5 with diamond-like carbon (DLC) scratch coating',
+      'Sensor Suite': 'Dual green/infrared optical PPG, NTC body temperature sensor, 3D accelerometer',
+      'Battery Autonomy': '5 to 7 days per magnetic induction charge (80 min full charge)',
+      'Water Resistance': '10 ATM (100 meters / 330 ft submersion)',
+      'Weight': '3.2 grams (size dependent 6–13)',
+      'Subscription Requirement': 'None for core recovery analytics (optional cloud export: $4.99/mo)',
+    },
+    certifications: [
+      'FCC Part 15 Class B Compliant',
+      'CE Mark (Health, Safety, Environmental Protection Standards)',
+      'RoHS Compliant (Restriction of Hazardous Substances)',
+    ],
+    potentialBenefits: [
+      'Highly consistent finger capillary optical pulse detection during stillness compared to wrist-mounted optical sensors',
+      'Accurate detection of overnight autonomic recovery trends via waking HRV baseline comparisons',
+      'Passive skin temperature deviation tracking that can assist in identifying onset of physiological strain',
+      'No subscription lock-in for primary daily sleep and readiness score calculations',
+    ],
+    limitationsAndUncertainties: [
+      'Cannot provide real-time heart rate feedback during vigorous dynamic sports (e.g. boxing, rowing, kettlebells) due to finger motion artifacts',
+      'Photoplethysmography sleep staging is an algorithmic proxy and cannot replace clinical polysomnography (PSG) electroencephalography',
+      'Proper sizing is critical; requiring a sizing kit test period before choosing ring dimensions',
+    ],
+    safetyWarnings: [
+      'Remove during heavy barbell deadlifts, pull-ups, or machinery operation to prevent ring avulsion injury hazards',
+      'Clean contact surfaces weekly with mild soap to avoid contact dermatitis on sensitive skin',
+      'Not a regulated medical device (not FDA 510(k) cleared for diagnosing sleep apnea or cardiac arrhythmias)',
+    ],
+    merchantName: 'Aurora Biometrics Official Portal',
+    affiliateNetwork: 'ShareASale',
+    approvedAffiliateUrl: 'https://77review.com/go/aurora-apex-ring-official',
+    internalTrackingId: '77REV-RING-SAS-02',
+    editorialStatus: 'published',
+    lastVerificationDate: '2026-09-29',
+    reviewAuthor: authors.julian_reed,
+    reviewMethodology: 'hands_on_testing',
+    ratingBreakdown: {
+      ingredientPurityOrBuild: 9.6,
+      evidenceSubstantiation: 9.1,
+      labelTransparency: 9.3,
+      costPerDoseValue: 8.8,
+      overallEditorialScore: 9.2,
+    },
+    sources: [
+      {
+        id: 'ring-src-1',
+        claim: 'Finger-based optical photoplethysmography demonstrates superior signal-to-noise ratio for HRV measurement compared to wrist sensors.',
+        sourceTitle: 'Validation of finger-based wearable sensors for overnight heart rate variability and autonomic tone assessment',
+        sourceUrl: 'https://pubmed.ncbi.nlm.nih.gov/32332159/',
+        sourceType: 'peer_reviewed_rct',
+        publicationDate: '2020-04-22',
+        relevantFindings: 'Finger PPG correlation with standard 3-lead ECG was r = 0.98 for resting nocturnal RMSSD values.',
+        limitations: 'Restricted to nocturnal measurements; daytime motion introduces significant PPG noise artifacts.',
+        directlySupports: true,
+        lastCheckedDate: '2026-09-29',
+      },
+    ],
+    relatedArticles: ['sleep-architecture-recovery', 'recovery-tech-comparison'],
+    adEligibilityNotes: {
+      googleAdsEligible: true,
+      metaAdsEligible: true,
+      notes: 'Hardware recovery tracker with explicit non-medical disclaimer. Fully compliant with consumer electronics policies.',
+    },
+  },
+  {
+    id: 'elemental-whey-isolate',
+    name: 'Elemental Nutrition Grass-Fed Cold-Filtered Whey Isolate',
+    slug: 'elemental-grass-fed-whey-isolate',
+    category: 'supplements-nutrition',
+    classification: 'physical',
+    manufacturer: 'Elemental BioNutritional Labs',
+    shortDescription:
+      'Cross-flow microfiltered grass-fed whey protein isolate providing 30g protein, 6.8g BCAAs, and <0.5g lactose per serving.',
+    fullDescription:
+      'Elemental Whey Isolate utilizes low-temperature cross-flow microfiltration (CFM) to isolate native milk proteins without chemical acid denaturation. Sourced from 100% pasture-raised Irish dairy herds, each 35g scoop yields 30g of complete bioavailable protein with minimal residual lactose and fat.',
+    intendedUse:
+      'Convenient daily dietary protein supplementation to stimulate muscle protein synthesis (MPS) and support lean tissue repair following strenuous training.',
+    targetAudience:
+      'Athletes, active adults with elevated protein requirements, individuals managing body composition, and trainees with mild lactose sensitivity.',
+    imageUrl: wheyImg,
+    verifiedPrice: {
+      amount: 54.99,
+      currency: 'USD',
+      servingCost: 1.83,
+      servingsCount: 30,
+      billingType: 'one-time',
+      verifiedDate: '2026-09-18',
+    },
+    ingredients: [
+      {
+        name: 'Grass-Fed Whey Protein Isolate (Cold-Filtered CFM)',
+        amountPerServing: '32.5 g (yielding 30.0 g complete protein)',
+        dailyValuePercentage: '60% DV',
+        purpose: 'Provides full spectrum essential amino acids (EAAs) for muscle protein synthesis',
+        evidenceRating: 'established',
+        evidenceNotes:
+          'Whey protein isolate possesses the highest Protein Digestibility-Corrected Amino Acid Score (PDCAAS 1.0) and rapid leucine kinetics.',
+      },
+      {
+        name: 'Organic Dutch Cocoa Powder',
+        amountPerServing: '1.8 g',
+        dailyValuePercentage: '<1% DV',
+        purpose: 'Natural flavoring & polyphenol aroma',
+        evidenceRating: 'established',
+        evidenceNotes: 'Naturally derived non-GMO cocoa.',
+      },
+      {
+        name: 'Organic Stevia Leaf Extract (Rebaudioside A 98%)',
+        amountPerServing: '120 mg',
+        dailyValuePercentage: '0% DV',
+        purpose: 'Non-caloric sweetness without glycemic response',
+        evidenceRating: 'established',
+        evidenceNotes: 'Clinically tested high-purity natural sweetener.',
+      },
+    ],
+    specifications: {
+      'Protein Yield by Weight': '85.7% pure protein concentration',
+      'Leucine Content per Scoop': '3.2 grams (exceeds theoretical leucine trigger for MPS)',
+      'Lactose Content': '<0.3g per serving (well-tolerated by lactose sensitive individuals)',
+      'Heavy Metals Screening': 'Lead <0.005 ppm, Arsenic non-detectable',
+      'Added Sugars': '0 grams',
+    },
+    certifications: [
+      'NSF Certified for Sport®',
+      'Certified Gluten-Free',
+      'Informed Protein Purity Tested',
+    ],
+    potentialBenefits: [
+      'Rapid plasma amino acid elevation optimizing post-exercise muscle protein synthesis',
+      'High satiety index per calorie supporting balanced macronutrient intake',
+      'Superior solubility and gastrointestinal tolerance compared to standard whey concentrates',
+    ],
+    limitationsAndUncertainties: [
+      'Protein powder is a convenient nutritional supplement, not superior to equivalent complete protein from whole foods (fish, eggs, poultry)',
+      'Not suitable for individuals with severe IgE-mediated dairy/casein/whey milk allergies',
+      'Higher price point per serving compared to generic non-isolate commodity powders',
+    ],
+    safetyWarnings: [
+      'Contains milk ingredients. Individuals with diagnosed bovine milk allergy should avoid consumption.',
+      'Use this product as a food supplement only. Do not use for sole source weight reduction.',
+    ],
+    merchantName: 'Elemental Nutrition Direct',
+    affiliateNetwork: 'BuyGoods',
+    approvedAffiliateUrl: 'https://77review.com/go/elemental-whey-isolate-official',
+    internalTrackingId: '77REV-WHEY-BG-03',
+    editorialStatus: 'published',
+    lastVerificationDate: '2026-09-30',
+    reviewAuthor: authors.marcus_vance,
+    reviewMethodology: 'systematic_literature_review',
+    ratingBreakdown: {
+      ingredientPurityOrBuild: 9.7,
+      evidenceSubstantiation: 9.8,
+      labelTransparency: 9.6,
+      costPerDoseValue: 9.0,
+      overallEditorialScore: 9.5,
+    },
+    sources: [
+      {
+        id: 'whey-src-1',
+        claim: 'Whey protein supplementation stimulates muscle protein synthesis more effectively than plant proteins of equal nitrogen content when leucine is matched.',
+        sourceTitle: 'Dose-dependent response of muscle protein synthesis to dietary protein: a systematic review',
+        sourceUrl: 'https://pubmed.ncbi.nlm.nih.gov/24257722/',
+        sourceType: 'systematic_review',
+        publicationDate: '2014-01-10',
+        relevantFindings: 'Intake of 25-30g intact high-leucine protein post-exercise maximally stimulates myofibrillar fractional synthetic rate.',
+        limitations: 'Studies conducted primarily on healthy young resistance-trained cohorts.',
+        directlySupports: true,
+        lastCheckedDate: '2026-09-30',
+      },
+    ],
+    relatedArticles: ['protein-intake-timing-science', 'creatine-evidence-guide'],
+    adEligibilityNotes: {
+      googleAdsEligible: true,
+      metaAdsEligible: true,
+      notes: 'No false transformation claims. Clear macronutrient breakdown and allergen disclosures.',
+    },
+  },
+];
